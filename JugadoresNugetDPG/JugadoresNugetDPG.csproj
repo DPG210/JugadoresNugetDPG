@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Jugadores XML DPG</Title>
+    <Description>Nuget jugadores xml DPG</Description>
+    <PackageTags>DPG, jugadores</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="jugadores.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="jugadores.xml" />
+  </ItemGroup>
+
+</Project>
