@@ -8,6 +8,8 @@
     <Title>Jugadores XML DPG</Title>
     <Description>Nuget jugadores xml DPG</Description>
     <PackageTags>DPG, jugadores</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
